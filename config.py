@@ -13,31 +13,31 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5942641741:AAFYHAGJycIQr-CRBtWuO8LwPEwfsHXpsrs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6466129581:AAFYzkMqxddg8Bs37gycBlRIU0fdhE4S8jk")
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "TestBOt2023098BOT")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Moviesgodd_bot")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "13323016"))
+APP_ID = int(os.environ.get("APP_ID", "27604683"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "68e791e616100248b0a53ae86a661a12")
+API_HASH = os.environ.get("API_HASH", "ed52a1d0803b2ed84c5cca7f20535aac")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001851684341"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001702486980"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5965340120"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1264280791"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://lazy:Zabintkhab7808@lazydev786.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://tejachowdary106:6VZqrpK9PxLQXOS6@hotstar.fpazw92.mongodb.net/?retryWrites=true&w=majority")
 
-DB_NAME = os.environ.get("DATABASE_NAME", "lazydev786")
+DB_NAME = os.environ.get("DATABASE_NAME", "Hotstar")
 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001820894005"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001910675865"))
 
 NO_PORT = bool(environ.get('NO_PORT', False))
 
@@ -55,7 +55,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'LazyPrincess'))
+name = str(environ.get('name', 'Tejachowdary0'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -70,7 +70,7 @@ else:
     URL = "http://{}/".format(FQDN)
 UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-OWNER_USERNAME = "LazyDeveloper"
+OWNER_USERNAME = "Tejachowdary0"
 
 
 
@@ -104,7 +104,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1264280791)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
